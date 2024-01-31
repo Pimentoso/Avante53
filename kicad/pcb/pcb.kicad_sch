@@ -2066,7 +2066,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Female") (at 210.82 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 267d0249-a9ed-4c0d-987b-0e9e8385f620)
-    (property "Reference" "LED0" (id 0) (at 212.09 55.8799 0)
+    (property "Reference" "LED1" (id 0) (at 212.09 55.8799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x03_Female" (id 1) (at 212.09 58.4199 0)
@@ -2426,7 +2426,7 @@
   (symbol (lib_id "Device:D_Small") (at 218.44 160.02 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 48d1c137-5b33-4241-86cb-5aa0949a5598)
-    (property "Reference" "D52" (id 0) (at 220.98 158.7499 90)
+    (property "Reference" "D53" (id 0) (at 220.98 158.7499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 220.98 161.2899 90)
@@ -2595,7 +2595,7 @@
   (symbol (lib_id "Device:D_Small") (at 200.66 148.59 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 52c0ce29-8b1e-4757-ac6a-784d81e8e050)
-    (property "Reference" "D54" (id 0) (at 203.2 147.3199 90)
+    (property "Reference" "D51" (id 0) (at 203.2 147.3199 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 203.2 149.8599 90)
@@ -2852,7 +2852,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Female") (at 210.82 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 64f53ab3-14ea-4cbd-abe9-5b7f9991e2f9)
-    (property "Reference" "OLED0" (id 0) (at 212.09 41.9099 0)
+    (property "Reference" "OLED1" (id 0) (at 212.09 41.9099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x04_Female" (id 1) (at 212.09 44.4499 0)
@@ -3713,7 +3713,7 @@
   (symbol (lib_id "Device:D_Small") (at 207.01 160.02 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cacdb716-a488-4397-8a22-585cc9ed135e)
-    (property "Reference" "D51" (id 0) (at 209.55 158.7499 90)
+    (property "Reference" "D52" (id 0) (at 209.55 158.7499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 209.55 161.2899 90)
@@ -3827,7 +3827,7 @@
   (symbol (lib_id "Device:D_Small") (at 229.87 160.02 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d9daafa3-61cd-4d0a-aa94-c29e67b1a7a7)
-    (property "Reference" "D53" (id 0) (at 232.41 158.7499 90)
+    (property "Reference" "D54" (id 0) (at 232.41 158.7499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 232.41 161.2899 90)
@@ -4264,16 +4264,16 @@
     (path "/c2b87e86-4a69-4f67-9bea-a5aba1a0091a"
       (reference "D50") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_MiniMELF")
     )
-    (path "/cacdb716-a488-4397-8a22-585cc9ed135e"
+    (path "/52c0ce29-8b1e-4757-ac6a-784d81e8e050"
       (reference "D51") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_MiniMELF")
     )
-    (path "/48d1c137-5b33-4241-86cb-5aa0949a5598"
+    (path "/cacdb716-a488-4397-8a22-585cc9ed135e"
       (reference "D52") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_MiniMELF")
     )
-    (path "/d9daafa3-61cd-4d0a-aa94-c29e67b1a7a7"
+    (path "/48d1c137-5b33-4241-86cb-5aa0949a5598"
       (reference "D53") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_MiniMELF")
     )
-    (path "/52c0ce29-8b1e-4757-ac6a-784d81e8e050"
+    (path "/d9daafa3-61cd-4d0a-aa94-c29e67b1a7a7"
       (reference "D54") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/85c34df3-8a3e-49ab-8374-19be7bb0b715"
@@ -4310,7 +4310,7 @@
       (reference "H11") (unit 1) (value "Hole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_TopOnly")
     )
     (path "/267d0249-a9ed-4c0d-987b-0e9e8385f620"
-      (reference "LED0") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "LED1") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/7256b151-a8ca-4762-8118-1528709e7f97"
       (reference "MX1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
@@ -4472,7 +4472,7 @@
       (reference "MX53") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
     (path "/64f53ab3-14ea-4cbd-abe9-5b7f9991e2f9"
-      (reference "OLED0") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+      (reference "OLED1") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/c266ebe0-572c-41c9-9c58-4ebe1191562c"
       (reference "SW1") (unit 1) (value "RotaryEncoder_Switch") (footprint "Keebio-Parts:RotaryEncoder_EC11")
